@@ -129,3 +129,7 @@ def was_nonce_used_in_last_x_minutes?(nonce, minutes=60)
   # some kind of caching solution or something to keep a short-term memory of used nonces
   false
 end
+
+post '/lti_tool' do
+  "Hello World"
+end
